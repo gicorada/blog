@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title or "Il mio Blog" }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	<header>
+		<ul>
+			{% if title !== "Homepage" %}
+				<li><a href="/">← Vai alla Home</a></li>
+			{% endif %}
+			<li>
+				<h1>{{ title or "Il mio Blog" }}</h1>
+			</li>
+		</ul>
+	</header>
+    <main>
+		{% if img.url %}
+			<img src="{{ img.url | safe }}" alt="" width="400" height="200" style="object-fit:contain;">
+		{% endif %}
+        {{ content | safe }}
+    </main>
+    <footer>
+        <p>© 2025 - Creato con 11ty 🚀</p>
+		<p>---</p>
+		<a
+			class="site-button"
+			href="#"
+		><img
+			style="image-rendering:pixelated; -ms-interpolation-mode:nearest-neighbor;"
+			alt="Sito di GicoRada" title="Sito di GicoRada"
+			src="/assets/88x31/gicorada_88x31.png"
+		/></a>
+
+		<a
+			class="site-button"
+			href="https://sitoctt.octt.eu.org"
+			target="_blank" rel="noopener nofollow"
+		><img
+			style="image-rendering:pixelated; -ms-interpolation-mode:nearest-neighbor;"
+			alt="✨sitoctt✨" title="✨sitoctt✨"
+			src="/assets/88x31/sitoctt_88x31.png"
+		/></a>
+
+    </footer>
+</body>
+</html>
