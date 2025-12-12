@@ -7,7 +7,7 @@ body{
 header {
 	position: sticky;
 	top: 0;
-	
+	z-index: 10000;
 	background-color:  #131824;
 }
 header ul {
@@ -115,6 +115,34 @@ h3::before {
 }*/
 
 /* List style */
-/*li {
+li {
 	list-style-type: '- ';
-}*/
+}
+
+
+
+.tooltip {
+  border-bottom: 1px dashed #929292; /* tratteggiata */
+  cursor: help;
+  position: relative;
+}
+
+.tooltip:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%; /* sopra la parola */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 0.85em;
+  z-index: 10;
+}
+
+article p {
+	text-align: justify;
+}
+

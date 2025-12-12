@@ -18,13 +18,16 @@
 		</ul>
 	</header>
     <main>
-		{% if img.url %}
-			<img src="{{ img.url | safe }}" alt="" width="400" height="200" style="object-fit:contain;">
-		{% endif %}
-        {{ content | safe }}
+		<article>
+			{% if img.url %}
+				<img src="{{ img.url | safe }}" alt="" width="400" height="200" style="object-fit:contain;">
+			{% endif %}
+			{{ content | safe }}
+		</article>
     </main>
     <footer>
         <p>© 2025 - Creato con 11ty 🚀</p>
+		<a href="https://gicorada.com">🌐 Vai al mio sito principale</a>
 		<p>---</p>
 		<a
 			class="site-button"
