@@ -81,3 +81,8 @@ Ciò quindi significa che il destinatario della mia fiducia riguardo alla segret
 
 Al momento, mi sento di consigliare come *VPN* gratuita Proton VPN. Offre gratuitamente una connessione per account (scelta automaticamente tra 10 posizioni europee e extra-europee). Altre funzioni sono a pagamento, ma per un uso sporadico e non da power user è più che sufficiente.
 
+## E poi?
+
+Questo "articolo" (una serie di appunti personali uniti a consigli per il lettore, in verità) non sarà l'unico su questo blog dedicato a questi argomenti (generalmente, digital sovereignity, privacy, open source). Questa pertanto non è da considerarsi una guida completa all'uso sicuro di Internet e dei mezzi di comunicazione (e nemmeno punta ad esserlo). Se ti è piaciuto questo articolo, ti consiglio di controllare ogni tanto questo sito, o le mie pagine social elencate sul mio sito principale (link appena qui sotto).
+
+E, se sei arrivatə a leggere fino a qui, grazie per l'attenzione! 🙃
