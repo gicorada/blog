@@ -18,6 +18,7 @@
 		</ul>
 	</header>
     <main>
+		{% if privacy === "protected" %} <p><strong>🔒 Questo articolo non è visibile dalla pagina principale. Puoi raggiungerlo solo tramite questo link!</strong></p> {% endif %}
 		<article>
 			{% if img.url %}
 				<img src="{{ img.url | safe }}" alt="" width="400" height="200" style="object-fit:contain;">
